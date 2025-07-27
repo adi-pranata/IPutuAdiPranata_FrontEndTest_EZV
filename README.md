@@ -68,6 +68,36 @@ GET /todos?_start=0&_limit=10 – Fetch paginated todos
 
 POST /todos – Create new todo
 
+DELETE /todos/:id – Delete todo
+
+📆 Installation
+
+# Clone the repository
+git clone <repository-url>
+cd nextjs-todo-app
+
+# Install dependencies
+npm install
+
+▶️ Run Development Server
+
+npm run dev
+
+Open http://localhost:3000 in your browser.
+
+🏗️ Build for Production
+
+npm run build
+npm start
+
+📝 API Endpoints
+
+Using JSONPlaceholder API:
+
+GET /todos?_start=0&_limit=10 – Fetch paginated todos
+
+POST /todos – Create new todo
+
 PATCH /todos/:id – Update todo
 
 DELETE /todos/:id – Delete todo
